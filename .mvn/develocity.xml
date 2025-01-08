@@ -3,10 +3,9 @@
   xmlns="https://www.gradle.com/develocity-maven" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://www.gradle.com/develocity-maven https://www.gradle.com/schema/develocity-maven.xsd">
   <server>
-    <!--    <url>https://develocity-staging.eclipse.org</url>-->
-    <url>https://ge.solutions-team.gradle.com</url>
+    <url>https://develocity-staging.eclipse.org</url>
   </server>
-  <projectId>glassfish</projectId> <!-- adjust to your project identifier / descriptor -->
+  <projectId>mylyn</projectId>
   <buildScan>
     <obfuscation>
       <username>#{'eclipse-' + env['EF_SHORT_NAME'] + '-bot'}</username>
@@ -21,7 +20,7 @@
   </buildScan>
   <buildCache>
     <local>
-      <enabled>#{isFalse(env['CI'])}</enabled>
+      <enabled>false</enabled>
     </local>
     <remote>
       <enabled>false</enabled>

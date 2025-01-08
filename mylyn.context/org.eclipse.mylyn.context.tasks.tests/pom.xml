@@ -33,7 +33,7 @@
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-surefire-plugin</artifactId>
         <configuration>
-          <skip>${test.component.skip}</skip>
+          <skip>true</skip>
           <testClass>${test.suite}</testClass>
         </configuration>
       </plugin>

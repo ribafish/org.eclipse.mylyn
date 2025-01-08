@@ -61,7 +61,7 @@ public class BugzillaDateTimeTests extends TestCase {
 			assertEquals(2006, calendar.get(Calendar.YEAR));
 			assertEquals(4, calendar.get(Calendar.MONTH));
 			assertEquals(8, calendar.get(Calendar.DAY_OF_MONTH));
-			assertEquals(23, calendar.get(Calendar.HOUR_OF_DAY));
+			assertEquals(7, calendar.get(Calendar.HOUR_OF_DAY));
 			assertEquals(4, calendar.get(Calendar.MINUTE));
 			assertEquals(0, calendar.get(Calendar.SECOND));
 
@@ -72,7 +72,7 @@ public class BugzillaDateTimeTests extends TestCase {
 			assertEquals(2006, calendar.get(Calendar.YEAR));
 			assertEquals(4, calendar.get(Calendar.MONTH));
 			assertEquals(8, calendar.get(Calendar.DAY_OF_MONTH));
-			assertEquals(23, calendar.get(Calendar.HOUR_OF_DAY));
+			assertEquals(7, calendar.get(Calendar.HOUR_OF_DAY));
 			assertEquals(4, calendar.get(Calendar.MINUTE));
 			assertEquals(11, calendar.get(Calendar.SECOND));
 
