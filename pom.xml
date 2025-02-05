@@ -59,6 +59,16 @@
                   <inputs>
                     <fileSets>
                       <fileSet>
+                        <name>src</name>
+                        <paths>
+                          <path>src</path>
+                        </paths>
+                        <normalization>
+                          <strategy>RELATIVE_PATH</strategy>
+                          <ignoreLineEndings>true</ignoreLineEndings>
+                        </normalization>
+                      </fileSet>
+                      <fileSet>
                         <name>testClassesDirectory</name>
                         <normalization>CLASSPATH</normalization>
                         <includesProperty>includes</includesProperty>
