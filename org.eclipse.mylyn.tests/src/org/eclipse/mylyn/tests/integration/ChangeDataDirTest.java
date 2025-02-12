@@ -95,6 +95,7 @@ public class ChangeDataDirTest extends TestCase {
 		ITask readTaskAfterMove = taskList.getTask(handle);
 		assertNotNull(readTaskAfterMove);
 		assertEquals(readTaskBeforeMove.getCreationDate(), readTaskAfterMove.getCreationDate());
+		assertNotNull("Test broken on purpose", null);
 	}
 
 }
