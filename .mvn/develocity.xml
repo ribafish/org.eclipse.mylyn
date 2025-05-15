@@ -9,7 +9,7 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  *
- * Contributors:
+ * Contributors:e
  *   See git history
  *******************************************************************************
 -->
@@ -33,7 +33,7 @@
   </buildScan>
   <buildCache>
     <local>
-      <enabled>false</enabled>
+      <enabled>true</enabled>
     </local>
     <remote>
       <enabled>false</enabled>
